@@ -6,21 +6,18 @@
 
 <hr>
 
-### Practce understanding CSS -> Setting an Elements Position
+### Practice Understanding CSS -> Setting an Elements Position
 
 <hr>
 
-### Live Site:
+##
 
-
-<hr>
-
-### Overview:
--   [ ] This is a CSS tutorial website that teaches how to move and layer elements on a webpage in two parts. Part one, explains how to move elements from their normal position and how to control element layering or overlap through code examples of the before and after effects along with pictures of this concept. Part two, applies these concepts through a mock tutoring company website.
+## 💫 Overview:
+-   [ ] This is a CSS tutorial website that teaches the user how to move and layer elements on a webpage in two parts. Part one, explains how to move elements from their normal position and how to control element layering or overlap through code examples of the before and after effects along with pictures of this concept. Part two, applies these concepts through a mock tutoring company website.
 
 <hr>
 
-### Key Design Features:
+## 🎨 Key Design Features:
 -   [ ] <b> Cherry Blossom theme for the color scheme across both pages </b>
 -   [ ] <b> Visual Dividers </b> between sections
 -   [ ] <b> Flexbox layout </b> for header | footer alignment
@@ -38,48 +35,70 @@
 <hr>
 
 -   [ ] CSS - Setting Elements:
-    -   [ ] If a web page were like a piece of lined notebook paper and the elements were what you wrote on the page:
-        -   [ ] Some elements would be written on their own line.
-        -   [ ] Other elements would be able to share a line with other elements.
-        -   [ ] Elements are either displayed on the block level or the inline level.
-    -   [ ] <b>Block</b> elements take up the entire "width" of whatever they're inside of. However, this can be changed (as well as the "height").
-        -   [ ] Block elements by default take are rendered on their own line by themselves. i.e. a &lt;div&gt; or &lt;p&gt; element.
-        -   [ ] For instance:
+    -   [ ] "relative" position:
+        -   [ ] This allows your elements to be "moved" around the screen, away from where it would normally be on the screen
+        -   [ ] Seeting an element's "position" property to anything but "static", it can be moved with "top", "right", "bottom", and "left" properties. This includes "relative".
+            -   [ ] "top" -> moves an element down the screen
+            -   [ ] "right" -> moves an element to the left
+            -   [ ] "left" -> moves an element to the right
+            -   [ ] "bottom" -> moves an element up the screen
+        -   [ ] For instance, this is the syntax for static elements:
             ``` css
             div {
-                width: 100%;
-                height: 100px;
+                width: 200px;
+                height: 200px;
+            }
+
+            #div-a {
                 background-color: red;
             }
 
-            p {
-                border: 1px solid blue
+            #div-b {
+                background-color: blue;
             }
             ```
+    -   [ ] To break #div-b out of the normal flow by changing its position to relative, and then move it from the "left" and "top: sides by 25px:
+        ``` css
+        #div-b {
+            backfround-color: blue;
+            position: relative;
+            left: 25px;
+            top: 25px;
+        }
+        ```
+    -   [ ] The rendered relative elements: <img src="img/d-rendered-relative-syntax.png" alt="Rendered Syntax of Relative Elements">
+    -   [ ] The "top" and "left" properties can also be set with relative units like 5em and 50%: <img src="img/e-rendered-relative-syntax-with-top-and-left-properties.png" alt="Syntax of Relative Elements with top and left properties">
+    -   [ ] "z-index" property:
+        -   [ ] This changes the way elements are "layered" on the webpage, regardless of when they appear on the HTML file.
+        -   [ ] For instance, the following syntax is for two static &lt;div&gt; elements along with "z-index":
+            ``` css
+            div {
+                width: 200px;
+                height: 200px;
+            }
 
+            #div-a {
+                background-color: red;
+            }
+
+            #div-b {
+                background-color: blue;
+                position: relative;
+                left: 25px;
+                bottom: 25px;
+                z-index: -1;
+            }
+
+            #div-c {
+                background-color: lightgreen;
+            }
+            ```
+        -   [ ] This will render relative elements with the "z-index" properties:
+        <img src="img/i-rendered-elements-with-z-index.png" alt="Rendered Relative Elements layered differently using z-index">
+        
 <hr>
 
--   [ ] CSS - Normal Flow of Elements:
-    -   [ ] When elements are displayed on the screen, they will appear as close to the top and left edges of their parent elements as possible. They will also appear either as blocks or inline element
-        -   [ ] This is known as the normal flow of elements.
-    -   [ ] We can control how an element is normally positioned in this flow with the "position" property. By default, all elements have a "static" position:
-        -   [ ] <img
-                    src="img/b-position-static-syntax.png"
-                    alt="Position property Syntax"
-                    width="200"
-                >
-    -   [ ] The rendered image:
-        -   [ ] <img
-                    src="img/c-rendered-img-position-static.png"
-                    alt="Rendered Image of Position Static"
-                    width="200"
-                >
-    -   [ ] These two block-level <div> elements follow the normal flow where the red <div> renders first and the blue <div> renders on the very next line
-    -   [ ] <b>Note:</b> It usually isn't necessary to set "position" to "static" since this is the default for all elements.
-
-<hr>
-
-### Semantic Outline of the webpage:
+## 🧩 Semantic Outline of the webpage:
 
 -   [ ] The &lt;header&gt; element:
     -   [ ] Is used for the beginning of the webpage
@@ -127,9 +146,7 @@
 
 <hr>
 
--   [ ] Encompassed Technologies:
-    -   [ ] HTML
-    -   [ ] CSS
+## ✨ Encompassed Technologies:
 -   [ ] HTML:
     -   [ ] Will be the structure and skeleton of how the app will appear on the webpageWill be the structure and skeleton of how the app will appear on the webpage
 -   [ ] CSS:
@@ -137,7 +154,7 @@
 
 <hr>
 
-### 🌸 Live Demo 🌸
+## 🌐 Live Demo
 -   [ ] Visit the Live Website:
-    -   [ ] 
+    -   [ ]
 
