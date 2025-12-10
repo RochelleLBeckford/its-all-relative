@@ -68,8 +68,8 @@
                 top: 25px;
             }
             ```
-        -   [ ] The rendered relative elements: <img src="img/d-rendered-relative-syntax.png" alt="Rendered Syntax of Relative Elements">
-        -   [ ] The "top" and "left" properties can also be set with relative units like 5em and 50%: <img src="img/e-rendered-relative-syntax-with-top-and-left-properties.png" alt="Syntax of Relative Elements with top and left properties">
+        -   [ ] The rendered relative elements: <img src="img/main/rendered-relative-syntax.png" alt="Rendered Syntax of Relative Elements">
+        -   [ ] The "top" and "left" properties can also be set with relative units: <img src="img/main/rendered-relative-syntax-with-top-and-left-properties.png" alt="Syntax of Relative Elements with top and left properties">
     <br>
     -   [ ] "z-index" property:
         -   [ ] This changes the way elements are "layered" on the webpage, regardless of when they appear on the HTML file.
@@ -97,7 +97,7 @@
             }
             ```
         -   [ ] This will render relative elements with the "z-index" properties:
-        <img src="img/i-rendered-elements-with-z-index.png" alt="Rendered Relative Elements layered differently using z-index">
+        <img src="img/main/rendered-elements-with-z-index.png" alt="Rendered Relative Elements layered differently using z-index">
 
 <hr>
 
