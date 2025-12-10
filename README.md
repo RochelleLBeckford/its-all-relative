@@ -1,3 +1,5 @@
+<img src="img/icons/overview-cherry-blossom-alleyway.png" width="100%" height="400">
+
 # 🌸 Its All Relative 🌸
 
 ## Practice: Creating a Webpage building upon HTML basics and understanding how to use CSS Basics
@@ -57,17 +59,18 @@
                 background-color: blue;
             }
             ```
-    -   [ ] To break #div-b out of the normal flow by changing its position to relative, and then move it from the "left" and "top: sides by 25px:
-        ``` css
-        #div-b {
-            backfround-color: blue;
-            position: relative;
-            left: 25px;
-            top: 25px;
-        }
-        ```
-    -   [ ] The rendered relative elements: <img src="img/d-rendered-relative-syntax.png" alt="Rendered Syntax of Relative Elements">
-    -   [ ] The "top" and "left" properties can also be set with relative units like 5em and 50%: <img src="img/e-rendered-relative-syntax-with-top-and-left-properties.png" alt="Syntax of Relative Elements with top and left properties">
+        -   [ ] To break #div-b out of the normal flow by changing its position to relative, and then move it from the "left" and "top: sides by 25px:
+            ``` css
+            #div-b {
+                backfround-color: blue;
+                position: relative;
+                left: 25px;
+                top: 25px;
+            }
+            ```
+        -   [ ] The rendered relative elements: <img src="img/d-rendered-relative-syntax.png" alt="Rendered Syntax of Relative Elements">
+        -   [ ] The "top" and "left" properties can also be set with relative units like 5em and 50%: <img src="img/e-rendered-relative-syntax-with-top-and-left-properties.png" alt="Syntax of Relative Elements with top and left properties">
+    <br>
     -   [ ] "z-index" property:
         -   [ ] This changes the way elements are "layered" on the webpage, regardless of when they appear on the HTML file.
         -   [ ] For instance, the following syntax is for two static &lt;div&gt; elements along with "z-index":
@@ -95,10 +98,10 @@
             ```
         -   [ ] This will render relative elements with the "z-index" properties:
         <img src="img/i-rendered-elements-with-z-index.png" alt="Rendered Relative Elements layered differently using z-index">
-        
+
 <hr>
 
-## 🧩 Semantic Outline of the webpage:
+## &lt;/&gt; Semantic Outline of the webpage:
 
 -   [ ] The &lt;header&gt; element:
     -   [ ] Is used for the beginning of the webpage
