@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- & Title of the webpage -->
+    <title>It's All Relative</title>
+    <!-- & Link to the CSS Stylesheet -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- & Header
+    ~ This is the space near the top of the webpage that will make it easier to understand and navigate the webpage
+    ~ Logo's, navigation bar, webpage title. etc..
+    -->
+    <header class="flex-container">
+        <img
+            class="header-img"
+            src="img/a-maiden-wine-viewing-the-cherry-blossoms.png"
+            alt="Maiden Wine Viewing the Cherry Blossoms"
+        >
+        <hr class="vertical-divider">
+        <h1>🌸 It's All Relative 🌸</h1>
+        <hr class="vertical-divider">
+        <img
+            class="header-img"
+            src="img/a-maiden-wine-viewing-the-cherry-blossoms.png"
+            alt="Maiden Wine Viewing the Cherry Blossoms"
+        >
+    </header>
+    <br>
+    <hr class="section-divider">
+    <br>
+
+    <!-- & Main
+    ~ This is where the main information of the webpage will go
+    -->
+    <main>
+        <!-- & Section
+        ~ This groups together similar pieces of information
+        -->
+        <!-- & This section will discuss what position:relative is -->
+        <section>
+            <h2>🍵 Position: Relative 🍵</h2>
+            <hr class="title-divider">
+            <br>
+
+            <ul>
+                <li>
+                    The "relative" position allows your element to be "moved" aroung the screen, away from where it would normally be on the screen.
+                </li>
+                <li>
+                    When we set an element's "position" property to anything but "static", it can be moved with "top", "right", "bottom", and "left" properties. This includes "relative".
+                </li>
+                <li>
+                    &lt;div&gt; Static element Syntax with red and blue blocks:
+                    <ul>
+                        <li>
+                            <img
+                                src="img/b-syntax-of-static-elements.png"
+                                alt="Syntax of Static Elements"
+                                width="275"
+                            >
+                        </li>
+                    </ul>
+                </li>
+                <li>
+                    It is possible to break #div-b our of the normal flow by changing its position to relative, and then move it from the "left" and "top" sides by 25px:
+                    <ul>
+                        <li>
+                            <img
+                                src="img/c-syntax-of-relative-elements.png"
+                                alt="Syntax of Relative Elements"
+                                width="275"
+                            >
+                        </li>
+                        <li>
+                            <img
+                                src="img/d-rendered-relative-syntax.png"
+                                alt="Rendered Syntax of Relative Elements"
+                            >
+                        </li>
+                        <li>
+                            <img
+                                src="img/e-rendered-relative-syntax-with-top-and-left-properties.png"
+                                alt="Syntax of Relative Elements with top and left properties"
+                            >
+                        </li>
+                        <li>
+                            The "top" and "left" properties can also be set with relative units like 5em and 50%.
+                        </li>
+                        <li>
+                            <b>Note: </b>
+                            Keep in mind that "top" moves an element down the screen, "right", moves it to the left, "bottom" moves it up, and "left" moves it right. Imagine something is pushing the element box from that side (i.e., push the element 25px to the right from the "left" side).
+                        </li>
+                    </ul>
+                </li>
+            </ul>
+        </section>
+        <br>
+        <hr class="section-divider">
+        <br>
+
+        <!-- & This section will discuss what z-index is -->
+        <section>
+            <h2>🌸 Z-Index 🌸</h2>
+            <hr class="title-divider">
+            <br>
+
+            <ul>
+                <li>
+                    If you work with "position:relative" long enough, you'll notice how some elements will overlap other elements.
+                </li>
+                <li>
+                    When you don't want this, try using the "z-index" property. This changes the way elements are "layered" on the webpage, regardless of when they appear on the HTML file. Just like magic🪄
+                </li>
+                <li>
+                    The following is the syntax for two static &lt;div&gt; elements along with using "z-index" through adding another &lt;div&gt; element, #div-c to the mix.
+                    <ul>
+                        <li>
+                            <img
+                                src="img/f-syntax-of-relative-elements-and-z-index.png" alt="Syntax of Relative Elements and z-index"
+                                width="275"
+                            >
+                        </li>
+                        <li>
+                            This will render relative elements:
+                            <ul>
+                                <li>
+                                    <img
+                                        src="img/g-rendered-relative-elements.png"
+                                        alt="Rendered Relative Elements"
+                                    >
+                                </li>
+                            </ul>
+                        </li>
+                        <li>
+                            This will render relative elements with the "top" and "bottom" properties:
+                            <ul>
+                                <li>
+                                    <img
+                                        src="img/h-rendered-relative-elements-with-elements-ovelapping.png"
+                                        alt="Rendered Relative Elements overlaping"
+                                    >
+                                </li>
+                            </ul>
+                        </li>
+                        <li>
+                            This will render relative elements with the "z-index" properties:
+                            <ul>
+                                <li>
+                                    <img
+                                        src="img/i-rendered-elements-with-z-index.png"
+                                        alt="Rendered Relative Elements layered differently using z-index"
+                                    >
+                                </li>
+                            </ul>
+                        </li>
+                    </ul>
+                </li>
+            </ul>
+        </section>
+    </main>
+    <br>
+    <hr class="section-divider">
+    <br>
+
+    <!-- & Footer
+    ~ This is where the important information will go that is not suitable for the <header> element
+        ~ Footnotes
+        ~ Links to extended sources or parts of the webpage
+            ~ In the <a> element -> use the following for the "href" attribute
+                ~ href = "/privacy"
+            ~ Also use the "target" attribute to open the link in anew web browser tab
+                ~ target = "_blank"
+        ~ Copyright information
+            ~ &copy; -> this is the symbol for copyright
+        ~ Social Media
+            ~ Where to follow/connect with the company/brand online
+    -->
+        <footer class="flex-container">
+            <img
+                class="footer-img"
+                src="img/a-maiden-wine-viewing-the-cherry-blossoms.png"
+                alt="Maiden Wine viewing the Cherry Blossoms"
+            >
+            <hr class="vertical-divider">
+            <p>
+                &copy; 2025 EtariaL33. All rights reserved.
+            </p>
+            <hr class="vertical-divider">
+            <img
+                class="footer-img"
+                src="img/a-maiden-wine-viewing-the-cherry-blossoms.png"
+                alt="Maiden Wine viewing the Cherry Blossoms"
+            >
+        </footer>
+</body>
+</html>
