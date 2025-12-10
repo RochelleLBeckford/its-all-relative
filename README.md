@@ -70,7 +70,7 @@
             ```
         -   [ ] The rendered relative elements: <img src="img/main/rendered-relative-syntax.png" alt="Rendered Syntax of Relative Elements">
         -   [ ] The "top" and "left" properties can also be set with relative units: <img src="img/main/rendered-relative-syntax-with-top-and-left-properties.png" alt="Syntax of Relative Elements with top and left properties">
-    <br>
+
     -   [ ] "z-index" property:
         -   [ ] This changes the way elements are "layered" on the webpage, regardless of when they appear on the HTML file.
         -   [ ] For instance, the following syntax is for two static &lt;div&gt; elements along with "z-index":
@@ -96,6 +96,7 @@
                 background-color: lightgreen;
             }
             ```
+
         -   [ ] This will render relative elements with the "z-index" properties:
         <img src="img/main/rendered-elements-with-z-index.png" alt="Rendered Relative Elements layered differently using z-index">
 
