@@ -1,4 +1,4 @@
-<img src="img/icons/overview-cherry-blossom-alleyway.png" width="100%" height="400">
+<img src="img/icons/cover-cherry-blossom-alleyway.png" width="100%" height="400">
 
 # 🌸 Its All Relative 🌸
 
